@@ -1,0 +1,10 @@
+.App {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-rows: 10% [row-start] 90% [row-end];
+    grid-template-columns: 20% [column1] 60% [column2] 20% [column3];
+    background-color: #282c34;
+  }
