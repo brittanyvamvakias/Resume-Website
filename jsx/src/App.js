@@ -13,11 +13,10 @@ import Navbar from './navbar/navbar';
 function App() {
   return (
     <Router>
-      <div className="primary-container">
+      <div class="primary-container">
         <Navbar/>
         <Switch>
           <Route path='/home'>
-            
           </Route>
         </Switch>
       </div>
