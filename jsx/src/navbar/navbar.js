@@ -12,8 +12,14 @@ function Navbar() {
             <div class="navbar-container-title">
                 Brittany Vamvakias' Resumé
             </div>
-            <div class="navbar-container-title">
-
+            <div class="navbar-container-home">
+                Home
+            </div>
+            <div class="navbar-container-education">
+                Education
+            </div>
+            <div class="navbar-container-experience">
+                Experience
             </div>
         </div>
     )
