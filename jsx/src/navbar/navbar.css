@@ -1,22 +1,28 @@
 
 .primary-navbar {
-    color: white;
-    font-size: 10px;
-    opacity: 100%;
+    background-color: rgba(255,255,255,.25);
+    font-size: 11px;
     position: absolute;
     display: grid;
+    width: 100vw;
     grid-area: navbar;
-    grid-template-rows: 100% [row1];
+    grid-template-rows: 40px;
     grid-template-columns: repeat(5, 1fr);
+    color: white;
+}
+
+.navbar-container-home:hover, .navbar-container-education:hover, .navbar-container-experience:hover {
+    cursor: pointer;
 }
 
 .navbar-container {
     color: white;
     grid-area: navbar;
+
 }
 
 .navbar-container-title {
-    @extend .navbar-container;
+   @extend .navbar-container;
    grid-column: 1 / 2;
    place-self: center;
 }

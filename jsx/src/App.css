@@ -24,6 +24,20 @@
   @extend .primary-overlay;
   opacity: 16%;
 }
+
+a:link, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C0C0C0;
+  text-decoration: underline;
+}
+
+
+
+
 /* 
 @keyframes App-logo-spin {
   from {

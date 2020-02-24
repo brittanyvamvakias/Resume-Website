@@ -13,13 +13,13 @@ function Navbar() {
                 Brittany Vamvakias' Resumé
             </div>
             <div class="navbar-container-home">
-                Home
+                <a href="/">Home</a>
             </div>
             <div class="navbar-container-education">
-                Education
+                <a href="/education">Education</a>
             </div>
             <div class="navbar-container-experience">
-                Experience
+                <a href="/experience">Experience</a>
             </div>
         </div>
     )
