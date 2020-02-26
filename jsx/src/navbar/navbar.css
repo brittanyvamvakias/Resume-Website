@@ -1,6 +1,6 @@
 
 .primary-navbar {
-    background-color: rgba(255,255,255,.25);
+    background-color: #55A9FF;
     font-size: 11px;
     position: absolute;
     display: grid;
@@ -9,6 +9,7 @@
     grid-template-rows: 40px;
     grid-template-columns: repeat(5, 1fr);
     color: white;
+    align-self: start;
 }
 
 .navbar-container-home:hover, .navbar-container-education:hover, .navbar-container-experience:hover {
