@@ -6,59 +6,26 @@ import {
 
 import './body.css';
 
+
+
+
+
+
+
 function Info() {
     return (
         <div class="primary-info">
         <div class="greeting">Howdy!</div>
         <div class="text-background">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam 
-            elementum varius. Integer vitae velit bibendum, tincidunt elit ut, vulputate urna. 
-            Integer varius porttitor est, in porttitor felis dictum a. Nam convallis turpis magna, 
-            nec dictum eros placerat id. Mauris a purus venenatis, sagittis nisi at, tristique massa. 
-            Vestibulum nisl neque, elementum sed ultrices eget, consectetur interdum lectus. Aenean sed lorem est. 
-            Sed eleifend neque est, a sollicitudin nulla ullamcorper at. Morbi odio felis, convallis non turpis sit 
-            amet, tempus imperdiet erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per 
-            inceptos himenaeos. Morbi nec aliquam nibh. Integer porta, mi a tristique vulputate, nunc erat fermentum 
-            metus, in accumsan tortor ipsum nec ipsum. Donec vel purus non turpis placerat laoreet ac non augue. 
-            Curabitur vestibulum semper blandit. Vivamus tincidunt suscipit lectus. Proin vestibulum, sem vel blandit 
-            malesuada, ante mauris porta dolor, nec elementum lorem massa in velit.
+        <h1>About Me</h1>
+        <p>My name is Brittany Vamvakias and I'm a senior physics major, with an astrophysics minor, at Texas A&M University.
+        I'm set to graduate in early May of 2020, and currently looking for a position starting after graduation. I'm conducting 
+        research with the Texas A&M University Astronomy department, observing a set of limited-r process metal poor stars and 
+        their chemical abundance of heavy elements, starting with strontium, on the periodic table. The goal of my research is to 
+        fit the abundance of these stars with stars found in our own solar system, who are relatively younger, thus giving us an 
+        idea of how these stars were born in the early universe. 
         </p>
-        <p>Ut ornare quis lectus in finibus. Donec non enim ipsum. Maecenas tempus diam placerat
-             tellus ultricies, in cursus eros iaculis. Suspendisse tincidunt rhoncus felis 
-             venenatis blandit. Nulla eleifend libero vitae arcu laoreet pharetra volutpat sed 
-             metus. Ut vitae mauris justo. Quisque lobortis orci non nisl rutrum, ac sodales eros 
-             euismod. Donec dapibus leo nec orci consequat, et pellentesque nunc aliquet. Quisque 
-             sagittis fringilla nulla, ut dapibus ipsum ultrices at. Sed dictum, purus sit amet 
-             vestibulum varius, turpis lorem fermentum leo, ac auctor elit magna eget ligula. 
-             Integer luctus vitae eros non suscipit. Aliquam efficitur tristique odio, rutrum 
-             sagittis turpis fringilla sed. Curabitur tristique, velit et scelerisque commodo, 
-             nisi leo ullamcorper sapien, et congue felis dui eget nisi. Donec convallis elit 
-             et dui euismod placerat. Aliquam in vehicula massa, ac dapibus ex.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquam 
-            elementum varius. Integer vitae velit bibendum, tincidunt elit ut, vulputate urna. 
-            Integer varius porttitor est, in porttitor felis dictum a. Nam convallis turpis magna, 
-            nec dictum eros placerat id. Mauris a purus venenatis, sagittis nisi at, tristique massa. 
-            Vestibulum nisl neque, elementum sed ultrices eget, consectetur interdum lectus. Aenean sed lorem est. 
-            Sed eleifend neque est, a sollicitudin nulla ullamcorper at. Morbi odio felis, convallis non turpis sit 
-            amet, tempus imperdiet erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per 
-            inceptos himenaeos. Morbi nec aliquam nibh. Integer porta, mi a tristique vulputate, nunc erat fermentum 
-            metus, in accumsan tortor ipsum nec ipsum. Donec vel purus non turpis placerat laoreet ac non augue. 
-            Curabitur vestibulum semper blandit. Vivamus tincidunt suscipit lectus. Proin vestibulum, sem vel blandit 
-            malesuada, ante mauris porta dolor, nec elementum lorem massa in velit.
-        </p>
-        <p>Ut ornare quis lectus in finibus. Donec non enim ipsum. Maecenas tempus diam placerat
-             tellus ultricies, in cursus eros iaculis. Suspendisse tincidunt rhoncus felis 
-             venenatis blandit. Nulla eleifend libero vitae arcu laoreet pharetra volutpat sed 
-             metus. Ut vitae mauris justo. Quisque lobortis orci non nisl rutrum, ac sodales eros 
-             euismod. Donec dapibus leo nec orci consequat, et pellentesque nunc aliquet. Quisque 
-             sagittis fringilla nulla, ut dapibus ipsum ultrices at. Sed dictum, purus sit amet 
-             vestibulum varius, turpis lorem fermentum leo, ac auctor elit magna eget ligula. 
-             Integer luctus vitae eros non suscipit. Aliquam efficitur tristique odio, rutrum 
-             sagittis turpis fringilla sed. Curabitur tristique, velit et scelerisque commodo, 
-             nisi leo ullamcorper sapien, et congue felis dui eget nisi. Donec convallis elit 
-             et dui euismod placerat. Aliquam in vehicula massa, ac dapibus ex.
-        </p>
+        
         </div>
         </div>
     )

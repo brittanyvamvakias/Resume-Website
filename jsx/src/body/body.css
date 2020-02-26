@@ -14,6 +14,7 @@
 .greeting {
     justify-self: center;
     align-self: center;
+    font-family: 'Oleo Script';
     font-size: 70px;
     grid-row-start: row-1;
     grid-row-end: row-2;
@@ -27,4 +28,12 @@
     grid-row: 3/4;
     overflow: hidden;
     overflow-y: scroll;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color:  #124269;
 }
