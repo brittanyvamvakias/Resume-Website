@@ -1,0 +1,30 @@
+.primary-info {
+    font-size: 11px;
+    position: absolute;
+    display: grid;
+    grid-row: 2/3;
+    grid-template-columns: 600px;
+    grid-template-rows: 40px [row-1] 100px [row-2] 400px [row-3];
+    height: 100%;
+    grid-area: body;
+    color: #124269;
+    align-self: start;
+}
+
+.greeting {
+    justify-self: center;
+    align-self: center;
+    font-size: 70px;
+    grid-row-start: row-1;
+    grid-row-end: row-2;
+}
+
+.text-background {
+    background-color: #EEE2DC;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    grid-row: 3/4;
+    overflow: hidden;
+    overflow-y: scroll;
+}

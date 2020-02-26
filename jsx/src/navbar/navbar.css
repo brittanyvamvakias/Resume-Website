@@ -1,15 +1,15 @@
 
 .primary-navbar {
-    background-color: #55A9FF;
-    font-size: 11px;
+    background-color: #EDC7B7;
+    font-size: 12px;
     position: absolute;
     display: grid;
     width: 100vw;
     grid-area: navbar;
     grid-template-rows: 40px;
     grid-template-columns: repeat(5, 1fr);
-    color: white;
     align-self: start;
+    text-transform: uppercase;
 }
 
 .navbar-container-home:hover, .navbar-container-education:hover, .navbar-container-experience:hover {
@@ -17,7 +17,6 @@
 }
 
 .navbar-container {
-    color: white;
     grid-area: navbar;
 
 }

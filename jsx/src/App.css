@@ -6,11 +6,8 @@
   align-items: center;
   justify-items: center;
   grid-template-rows: 10% [row1] 90% [row2];
-  grid-template-columns: 20% [column1] 60% [column2] 20% [column3];
-  grid-template-areas: 
-    "navbar navbar navbar"
-    "body body body" ;
-  background-color: #282c34;
+  grid-template-columns: auto [column1] 600px [column2] auto [column3];
+  background-color: white;
 }
 
 .primary-overlay {
@@ -25,13 +22,13 @@
   opacity: 16%;
 }
 
-a:link, a:visited, a:active {
-  color: white;
+a:link, a:visited {
+  color: #124269;
   text-decoration: none;
 }
 
-a:hover {
-  color: #C0C0C0;
+a:hover, a:active {
+  color: #AC3B61;
   text-decoration: underline;
 }
 
