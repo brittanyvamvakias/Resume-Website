@@ -23,17 +23,37 @@
 .text-background {
     background-color: #EEE2DC;
     color: black;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     grid-row: 3/4;
     overflow: hidden;
     overflow-y: scroll;
-    font-family: 'Roboto';
-    font-size: 12px;
+    font-family: 'Playfair Display';
+    font-size: 13px;
+    border-style: double; 
+    border-color: #124269;
 }
 
 h1 {
-    font-family: 'Open Sans';
-    font-size: 20px;
-    color:  #124269;
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-style: oblique;
+    color:  #AC3B61;
+    border-style: none none double none;
+    border-color: #124269;
+}
+
+.image {
+    float: right;
+    border-color: #124269;
+    border-style: double;
+    padding: 0;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.logo {
+    margin-top: 5px;
 }

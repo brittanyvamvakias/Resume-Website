@@ -10,6 +10,9 @@
     grid-template-columns: repeat(5, 1fr);
     align-self: start;
     text-transform: uppercase;
+    font-family: 'Open Sans';
+    border-style: none none double none;
+    border-color: #124269;
 }
 
 .navbar-container-home:hover, .navbar-container-education:hover, .navbar-container-experience:hover {
@@ -18,13 +21,13 @@
 
 .navbar-container {
     grid-area: navbar;
-    font-family: 'Open Sans';
 }
 
 .navbar-container-title {
    @extend .navbar-container;
    grid-column: 1 / 2;
    place-self: center;
+   
 }
 
 .navbar-container-home {
@@ -44,3 +47,11 @@
     grid-column: 4 / 5;
     place-self: center;
 }
+
+a:link, a:visited {
+    color: #124269;
+  }
+  
+  a:hover, a:active {
+    color: #AC3B61;
+  }

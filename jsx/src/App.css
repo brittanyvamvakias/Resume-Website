@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 
 .primary-container {
   height: 100%;
@@ -27,12 +28,10 @@
 
 a:link, a:visited {
   color: #124269;
-  text-decoration: none;
 }
 
 a:hover, a:active {
   color: #AC3B61;
-  text-decoration: underline;
 }
 
 

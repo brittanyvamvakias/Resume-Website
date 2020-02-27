@@ -6,19 +6,16 @@ import {
 
 import './navbar.css';
 
-var logo = document.createElement("IMG");
-logo.setAttribute("src", "android-chrome-192x192.png")
-
 
 
 function Navbar() {
     return (
         <div class="primary-navbar">
             <div class="navbar-container-title">
-
+            <img class="logo" src="https://i.imgur.com/HvLcvCG.png" width="35px" height="35px" border-style="none"></img>
             </div>
             <div class="navbar-container-home">
-                <a href="/">Home</a>
+                <a href="/">Research</a>
             </div>
             <div class="navbar-container-education">
                 <a href="/education">Education</a>
