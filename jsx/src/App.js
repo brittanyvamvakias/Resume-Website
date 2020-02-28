@@ -9,14 +9,14 @@ import {
 
 //components
 import Navbar from './navbar/navbar';
-import Info from './body/body';
+import Home from './body/homepage/home';
 
 function App() {
   return (
     <Router>
       <div class="primary-container">
         <Navbar/>
-        <Info/>
+        <Home/>
         <Switch>
           <Route path='/home'>
           </Route>

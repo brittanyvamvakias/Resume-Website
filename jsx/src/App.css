@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,600);
 
 .primary-container {
   height: 100%;
@@ -9,8 +9,12 @@
   position: absolute;
   align-items: center;
   justify-items: center;
-  grid-template-rows: 10% [row1] 90% [row2];
+  grid-template-rows: 40px [row1] auto [row2] 40px [row3];
   grid-template-columns: auto [column1] 600px [column2] auto [column3];
+  grid-template-areas: 
+    "navbar navbar navbar"
+    "body body body"
+    "info info info";
   background-color: white;
 }
 

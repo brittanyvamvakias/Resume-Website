@@ -1,7 +1,7 @@
 
 .primary-navbar {
     background-color: #EDC7B7;
-    font-size: 12px;
+    font-size: 12.5px;
     position: absolute;
     display: grid;
     width: 100%;
@@ -19,39 +19,70 @@
     cursor: pointer;
 }
 
-.navbar-container {
-    grid-area: navbar;
-}
-
 .navbar-container-title {
-   @extend .navbar-container;
    grid-column: 1 / 2;
    place-self: center;
-   
+   color: #AC3B61;
 }
 
 .navbar-container-home {
-    @extend .navbar-container;
     grid-column: 2 / 3;
     place-self: center;
 }
 
 .navbar-container-education {
-    @extend .navbar-container;
     grid-column: 3 / 4;
     place-self: center;
 }
 
 .navbar-container-experience {
-    @extend .navbar-container;
     grid-column: 4 / 5;
     place-self: center;
 }
 
 a:link, a:visited {
     color: #124269;
+    z-index: 10;
+    position: relative;
+    text-decoration: none;
   }
   
   a:hover, a:active {
     color: #AC3B61;
+    z-index: 10;
+    position: relative;
+    text-decoration: underline;
   }
+
+  .primary-contact {
+    background-color: #EDC7B7;
+    font-size: 11px;
+    position: relative;
+    display: inline-grid;
+    width: 100%;
+    grid-area: info;
+    grid-template-rows: 40px;
+    grid-template-columns: repeat(5, 1fr);
+    justify-self: end;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    border-style: double none none none;
+    border-color: #124269;
+}
+
+.linkedin {
+    grid-column: 2/3;
+    place-self: center;
+}
+
+.phone {
+    grid-column: 3/4;
+    place-self: center;
+    position: absolute;
+}
+
+.email {
+    grid-column: 4/5;
+    place-self: center;
+}
+

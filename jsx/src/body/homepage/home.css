@@ -32,6 +32,7 @@
     font-size: 13px;
     border-style: double; 
     border-color: #124269;
+    z-index: 10;
 }
 
 h1 {
@@ -57,3 +58,15 @@ h1 {
 .logo {
     margin-top: 5px;
 }
+
+.contact {
+    margin-bottom: 5px;
+}
+
+a:link, a:visited {
+    color: #124269;
+  }
+  
+  a:hover, a:active {
+    color: #AC3B61;
+  }

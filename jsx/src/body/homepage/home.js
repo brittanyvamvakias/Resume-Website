@@ -4,7 +4,7 @@ import {
     Link
 } from 'react-router-dom';
 
-import './body.css';
+import './home.css';
 
 
 
@@ -16,7 +16,7 @@ function Images() {
 
 
 
-function Info() {
+function Home() {
     return (
         <div class="primary-info">
         <div class="greeting">Howdy!</div>
@@ -34,11 +34,11 @@ function Info() {
         fit the abundance of these stars with younger stars found in our own solar system, thus giving us an 
         idea of how these stars were born in the early universe. 
         </p>
-        <p><a href="https://www.linkedin.com/in/brittanyvamvakias/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/brittanyvamvakias">GitHub</a></p>
+       
 
         </div>
         </div>
     )
 }
 
-export default Info;
+export default Home;
