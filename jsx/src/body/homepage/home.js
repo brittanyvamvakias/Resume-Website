@@ -1,9 +1,4 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Link
-} from 'react-router-dom';
-
 import './home.css';
 
 
@@ -19,7 +14,7 @@ function Images() {
 function Home() {
     return (
         <div class="primary-info">
-        <div class="greeting">Howdy!</div>
+        <div class="greeting">Welcome!</div>
         <div class="text-background">
         <h1>About Me</h1>
         <p>
@@ -28,14 +23,14 @@ function Home() {
         <p>&nbsp;&nbsp;&nbsp;&nbsp;My name is Brittany Vamvakias and I'm a senior physics major and an astrophysics minor, at Texas A&M University.
         I'm set to graduate in early May of 2020, and currently looking for a full time position starting after graduation.
         </p> 
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;I'm conducting 
-        research with the TAMU Astronomy department, observing a set of limited-r process metal poor stars and 
-        their abundance of heavy elements, starting with strontium, on the periodic table. The goal of my research is to 
-        fit the abundance of these stars with younger stars found in our own solar system, thus giving us an 
-        idea of how these stars were born in the early universe. 
+        
+        <h2>Notable Skills</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp; Java, JavaScript, HTML, CSS, React, Python, LaTeX, Microsoft Office, Mathematica, Linux
         </p>
-       
-
+        <h2>Honors</h2>
+        <p>Alpha Lambda Delta National Honor Society, Phi Eta Sigma National Honor Society, National Society of Collegiate Scholars</p>
+        <h2>As a thank you for checking out my website, here's a picture of my dog, Pluto</h2>
+        <img class="image" src="https://i.imgur.com/Vldz0oq.jpg" width="530px"></img>
         </div>
         </div>
     )

@@ -36,8 +36,8 @@ function Navbar() {
                     <a href="https://www.linkedin.com/in/brittanyvamvakias/"><img src="https://img.icons8.com/doodle/2x/linkedin.png" width="30" height="30" margin-top="5"></img></a>&nbsp;&nbsp;
                     <a href="https://github.com/brittanyvamvakias"><img src="https://img.icons8.com/doodle/2x/github.png" width="30" height="30" margin-top="5"></img></a>
                 </div>
-                <div class="phone"><img src="https://img.icons8.com/doodle/2x/phone.png" width="30" height="30" margin-top="5"></img>&nbsp;&nbsp; <span margin-bottom="5">281-846-0082</span></div>
-                <div class="email"><img src="https://img.icons8.com/doodle/2x/email.png" width="30" height="30" margin-top="5"></img>&nbsp;&nbsp; <span margin-bottom="5">brittvam@tamu.edu</span></div>
+                <div class="navbar-container-education" color="#124269">281-846-0082</div>
+                <div class="navbar-container-experience" color="#124269">brittvam@tamu.edu</div>
             </div>
         </div>
     )

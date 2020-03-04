@@ -38,6 +38,169 @@ a:hover, a:active {
   color: #AC3B61;
 }
 
+/* HOME PAGE */
+
+.primary-info {
+  font-size: 11px;
+  position: absolute;
+  display: grid;
+  grid-row: 2/3;
+  grid-template-columns: 600px;
+  grid-template-rows: 40px [row-1] 100px [row-2] 400px [row-3];
+  height: 100%;
+  grid-area: body;
+  color: #124269;
+  align-self: start;
+}
+
+.greeting {
+  justify-self: center;
+  align-self: center;
+  font-family: 'Oleo Script';
+  font-size: 70px;
+  grid-row-start: row-1;
+  grid-row-end: row-2;
+}
+
+.text-background {
+  background-color: #EEE2DC;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  grid-row: 3/4;
+  overflow: hidden;
+  overflow-y: scroll;
+  font-family: 'Playfair Display';
+  font-size: 13px;
+  border-style: double; 
+  border-color: #124269;
+  z-index: 10;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  font-style: oblique;
+  color:  #AC3B61;
+  border-style: none none double none;
+  border-color: #124269;
+}
+
+h2 {
+  font-family: 'Playfair Display';
+  font-size: 13px;
+  font-style: oblique;
+  color:  #124269;
+}
+
+.image {
+  float: right;
+  border-color: #124269;
+  border-style: double;
+  padding: 0;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.contact {
+  margin-bottom: 5px;
+}
+
+/* NAVIGATION BAR */
+
+.primary-navbar {
+  background-color: #EDC7B7;
+  font-size: 12.5px;
+  position: absolute;
+  display: grid;
+  width: 100%;
+  grid-area: navbar;
+  grid-template-rows: 40px;
+  grid-template-columns: repeat(5, 1fr);
+  align-self: start;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  border-style: none none double none;
+  border-color: #124269;
+}
+
+.navbar-container-home:hover, .navbar-container-education:hover, .navbar-container-experience:hover {
+  cursor: pointer;
+}
+
+.navbar-container-title {
+ grid-column: 1 / 2;
+ place-self: center;
+ color: #AC3B61;
+}
+
+.navbar-container-home {
+  grid-column: 2 / 3;
+  place-self: center;
+}
+
+.navbar-container-education {
+  grid-column: 3 / 4;
+  place-self: center;
+  color: #124269;
+}
+
+.navbar-container-experience {
+  grid-column: 4 / 5;
+  place-self: center;
+  color: #124269;
+}
+
+a:link, a:visited {
+  color: #124269;
+  z-index: 10;
+  position: relative;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #AC3B61;
+  z-index: 10;
+  position: relative;
+  text-decoration: underline;
+}
+
+.primary-contact {
+  background-color: #EDC7B7;
+  font-size: 11px;
+  position: relative;
+  display: inline-grid;
+  width: 100%;
+  grid-area: info;
+  grid-template-rows: 40px;
+  grid-template-columns: repeat(5, 1fr);
+  justify-self: end;
+  font-family: 'Open Sans';
+  border-style: double none none none;
+  border-color: #124269;
+}
+
+.linkedin {
+  grid-column: 2/3;
+  place-self: center;
+}
+
+.phone {
+  grid-column: 3/4;
+  place-self: center;
+  position: absolute;
+}
+
+.email {
+  grid-column: 4/5;
+  place-self: center;
+}
 
 
 
