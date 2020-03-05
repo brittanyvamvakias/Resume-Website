@@ -12,6 +12,7 @@ import Navbar from './navbar/navbar';
 import Home from './body/homepage/home';
 import Research from './research/research';
 import Education from './education/education';
+import Experience from './experience/experience';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/' component={Home} exact />
           <Route path='/research' component={Research} />
           <Route path='/education' component={Education} />
+          <Route path='/experience' component={Experience} />
         </Switch>
       </div>
     </Router>

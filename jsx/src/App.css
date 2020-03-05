@@ -2,6 +2,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,600);
 
+:root {
+  --main-bg-color: white;
+  --main-text-color: black;
+  --text-bg: #EEE2DC;
+  --primary-color: #124269;
+  --secondary-color: #AC3B61;
+  --bar-bg: #EDC7B7;
+}
+
 .primary-container {
   height: 100%;
   width: 100%;
@@ -15,7 +24,7 @@
     "navbar navbar navbar"
     "body body body"
     "info info info";
-  background-color: white;
+  background-color: var(--main-bg-color);
 }
 
 .primary-overlay {
@@ -31,11 +40,11 @@
 }
 
 a:link, a:visited {
-  color: #124269;
+  color: var(--primary-color);
 }
 
 a:hover, a:active {
-  color: #AC3B61;
+  color: var(--secondary-color);
 }
 
 /* HOME PAGE */
@@ -49,7 +58,7 @@ a:hover, a:active {
   grid-template-rows: 40px [row-1] 100px [row-2] 400px [row-3];
   height: 100%;
   grid-area: body;
-  color: #124269;
+  color: var(--primary-color);
   align-self: start;
 }
 
@@ -63,8 +72,8 @@ a:hover, a:active {
 }
 
 .text-background {
-  background-color: #EEE2DC;
-  color: black;
+  background-color: var(--text-bg);
+  color: var(--main-text-color);
   padding-left: 30px;
   padding-right: 30px;
   grid-row: 3/4;
@@ -73,7 +82,7 @@ a:hover, a:active {
   font-family: 'Playfair Display';
   font-size: 13px;
   border-style: double; 
-  border-color: #124269;
+  border-color: var(--primary-color);
   z-index: 10;
 }
 
@@ -81,21 +90,25 @@ h1 {
   font-family: 'Playfair Display';
   font-size: 24px;
   font-style: oblique;
-  color:  #AC3B61;
+  color:  var(--secondary-color);
   border-style: none none double none;
-  border-color: #124269;
+  border-color: var(--primary-color);
 }
 
 h2 {
   font-family: 'Playfair Display';
   font-size: 13px;
   font-style: oblique;
-  color:  #124269;
+  color:  var(--primary-color);
+}
+
+b {
+  color: var(--secondary-color);
 }
 
 .image {
   float: right;
-  border-color: #124269;
+  border-color: var(--primary-color);
   border-style: double;
   padding: 0;
   margin-right: 0px;
@@ -115,7 +128,7 @@ h2 {
 /* NAVIGATION BAR */
 
 .primary-navbar {
-  background-color: #EDC7B7;
+  background-color: var(--bar-bg);
   font-size: 12.5px;
   position: absolute;
   display: grid;
@@ -127,7 +140,7 @@ h2 {
   text-transform: uppercase;
   font-family: 'Open Sans';
   border-style: none none double none;
-  border-color: #124269;
+  border-color: var(--primary-color);
 }
 
 .navbar-container-home:hover, .navbar-container-education:hover, .navbar-container-experience:hover {
@@ -137,7 +150,7 @@ h2 {
 .navbar-container-title {
  grid-column: 1 / 2;
  place-self: center;
- color: #AC3B61;
+ color: var(--secondary-color);
 }
 
 .navbar-container-home {
@@ -148,16 +161,16 @@ h2 {
 .navbar-container-education {
   grid-column: 3 / 4;
   place-self: center;
-  color: #124269;
+  color: var(--primary-color);
 }
 
 .navbar-container-experience {
   grid-column: 4 / 5;
   place-self: center;
-  color: #124269;
+  color: var(--primary-color);
 }
 
-a:link, a:visited {
+/* a:link, a:visited {
   color: #124269;
   z-index: 10;
   position: relative;
@@ -169,10 +182,10 @@ a:hover, a:active {
   z-index: 10;
   position: relative;
   text-decoration: underline;
-}
+} */
 
 .primary-contact {
-  background-color: #EDC7B7;
+  background-color: var(--bar-bg);
   font-size: 11px;
   position: relative;
   display: inline-grid;
@@ -183,7 +196,7 @@ a:hover, a:active {
   justify-self: end;
   font-family: 'Open Sans';
   border-style: double none none none;
-  border-color: #124269;
+  border-color: var(--primary-color);
 }
 
 .linkedin {
